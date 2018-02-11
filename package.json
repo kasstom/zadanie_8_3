@@ -1,0 +1,29 @@
+{
+  "name": "learning-git-2",
+  "version": "1.0.0",
+  "description": "https://kasstom.github.io/learning-git-2/",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm-run-all test:*",
+	"test:js": "jshint js/*.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasstom/learning-git-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasstom/learning-git-2/issues"
+  },
+  "homepage": "https://github.com/kasstom/learning-git-2#readme",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.23.6",
+    "jshint": "^2.9.5",
+    "nu-html-checker": "^0.1.0",
+    "package.json": "^2.0.1"
+  },
+  "dependencies": {}
+}
